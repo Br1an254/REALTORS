@@ -5,8 +5,10 @@
 }
 
 .contact-container {
-    width: 100%;
+    /* border: solid 2px; */
+    width: fit-content;
     height: 50%;
+    margin: auto;
 }
 
 .contact-container h1 {
@@ -25,20 +27,23 @@
 .contacts-info-left{
     /* border: solid 5px red; */
     background-color: white;
-    width: 50%;
+    width: fit-content;
     padding: 10px;
 }
 
 .name-row {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
     margin-bottom: 10px;
+    /* align-items: center; */
 }
 
 .first-name, .second-name {
     display: flex;
     flex-direction: column;
     font-size: 18px;
+    justify-content: center;
 }
 
 .first-name input, .second-name input {
@@ -104,7 +109,7 @@
 .contacts-info-right{
     /* border: solid 5px blue; */
     background-color: white;
-    width: 50%;
+    width: fit-content;
 }
 
 .contacts-info-right h2{
